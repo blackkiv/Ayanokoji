@@ -1,0 +1,24 @@
+{
+  "name": "Ayanokoji",
+  "version": "1.0.0",
+  "description": "discord bot",
+  "main": "app.js",
+  "repository": "https://github.com/blackkiv/Ayanokoji",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "node deploy-commands.js && node app.js",
+    "raw": "node app.js",
+    "commands": "node deploy-commands.js"
+  },
+  "dependencies": {
+    "@discordjs/voice": "^0.16.1",
+    "bufferutil": "^4.0.8",
+    "cheerio": "^1.0.0-rc.12",
+    "discord.js": "^14.14.1",
+    "node-fetch": "2",
+    "sqlite3": "^5.1.7",
+    "utf-8-validate": "^6.0.3",
+    "zlib-sync": "^0.1.9"
+  }
+}
